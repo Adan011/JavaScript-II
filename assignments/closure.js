@@ -1,5 +1,24 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+const loz = "zelda";
+function game() {
+  const name = "legend of";
+  console.log(`The ${name} ${loz}`);
+}
+
+game();
+
+const gameName = title => {
+  console.log('Breath of the Wild');
+
+  const gameRating = () => 'is GOTY' + title;
+  return gameRating;
+}
+
+const Switch = gameName(' in 2017');
+console.log(Switch());
+
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
